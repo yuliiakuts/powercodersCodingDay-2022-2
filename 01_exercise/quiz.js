@@ -62,13 +62,13 @@ function markupQuizList(questions) {
         return `<li class="question">
                             <p>${question.question}</p>
                             <input type="radio" id="q1" name="q" value="1">
-                            <label for="q1">${question.q1}</label><br>
+                            <label for="q1">${question.answers.q1}</label><br>
                             <input type="radio" id="q2" name="q" value="0">
-                            <label for="q2">${question.q2}</label><br>
+                            <label for="q2">${question.answers.q2}</label><br>
                             <input type="radio" id="q3" name="q" value="0">
-                            <label for="q3">${question.q3}</label><br>
+                            <label for="q3">${question.answers.q3}</label><br>
                             <input type="radio" id="q4" name="q" value="0">
-                            <label for="q4">${question.q4}</label><br><br>
+                            <label for="q4">${question.answers.q4}</label><br><br>
                         </li>`
     }).join('')
     );
@@ -82,5 +82,17 @@ markupQuizList(questions);
 
 function countChecked() { 
 
+}
+
+function checkUnswers(){
+    
+    let choice = document.querySelector('input');
+    choice.addEventListener('change', function (){
+        console.log(choice[0]);
+    })
+    
+    // if (choice[0].value=="1" && choice[0].){
+
+    // }
 }
 
