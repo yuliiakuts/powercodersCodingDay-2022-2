@@ -1,40 +1,48 @@
 const questions = [
     {
         question: "What's the skeleton structure on a website?",
-        q1: 'HTML',
-        q2: 'JavaScript',
-        q3: 'Python',
-        q4: 'CSS',
+        answers: {
+            q1: 'HTML',
+            q2: 'JavaScript',
+            q3: 'Python',
+            q4: 'CSS',
+        },
     },
     {
         question: 'What to use in JAVAscript to make any website interactive',
-        q1: 'AddEventListener',
-        q2: 'Functions',
-        q3: 'Looping',
-        q4: 'Conditions',
+        answers: {
+            q1: 'AddEventListener',
+            q2: 'Functions',
+            q3: 'Looping',
+            q4: 'Conditions',
+        },
     },
     {
         question: 'What keyword is used for creating an instance of an object?',
-        q1: 'new',
-        q2: 'make',
-        q3: 'var',
-        q4: 'inst',
-        
+        answers: {
+            q1: 'new',
+            q2: 'make',
+            q3: 'var',
+            q4: 'inst',
         },
+    },
     {
         question: 'What is the output? const age = 26; const beverage = age >= 21 ? "Beer" : "Juice"; console.log(beverage);' ,
-        q1: 'Beer',
-        q2: 'Error',
-        q3: 'Juice',
-        q4: 'Water',
+        answers: {      
+            q1: 'Beer',
+            q2: 'Error',
+            q3: 'Juice',
+            q4: 'Water',
+        },
     },
     {
         question: 'Learing how to programme means:',
-       q1: 'how to solve problems using code',
-        q2: 'how to prepare an agenda',
-        q3: 'how to solve mathematical problem',
-        q4: 'how to communicate with aliens',
-        
+        answers: { 
+            q1: 'how to solve problems using code',
+            q2: 'how to prepare an agenda',
+            q3: 'how to solve mathematical problem',
+            q4: 'how to communicate with aliens',
+        },
     },
 ]
 
