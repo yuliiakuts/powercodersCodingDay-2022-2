@@ -37,5 +37,10 @@ const questions = [
         wrongAnswer: 'how to communicate with aliens',
         RightAnswer: 'how to solve problems using code',
     },
-
 ]
+
+function myFunction() {
+    for (let i = 0; i< questions.length; i++){
+    randomQuestion = Math.floor(Math.random() * questions.length);
+    document.write(questions[i]);
+}}
